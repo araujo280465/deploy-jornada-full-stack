@@ -17,6 +17,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "axios": "^1.7.9",
     "deploy": "file:..",
+    "dotenv": "^17.2.1",
     "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
