@@ -1,3 +1,0 @@
-API = Application Programming Interface
-
-Set-ExecutionPolicy Unrestricted
