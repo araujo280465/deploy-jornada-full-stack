@@ -1,0 +1,23 @@
+# Exclude HTML CSS folder
+HTML CSS/
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build files
+dist/
+build/
+
+# Database files
+*.sqlite
+*.db
+
+# IDE files
+.vscode/
+.idea/ 

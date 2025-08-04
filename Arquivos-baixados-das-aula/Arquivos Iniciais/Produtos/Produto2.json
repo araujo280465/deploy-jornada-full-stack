@@ -1,0 +1,22 @@
+{
+  "titulo": "Smart Tv 58 Philco Led 4k Google Tv Hdr10 P58kga",
+  "preco": 3284,
+  "precoDesconto": 2181,
+  "precoParcelado": 187.41,
+  "caracteristicas": [
+    "Google Assistant Embutido.",
+    "Conta com wi-fi y porto de rede.",
+    "Possui 3 portas HDMI.",
+    "Equipado com conexão USB.",
+    "Com conectividade via Bluetooth",
+    "Dimensões: 1.29m de largura, 70cm de altura e 10cm de profundidade."
+  ],
+  "imagens": [
+    "https://http2.mlstatic.com/D_NQ_NP_731986-MLA85700107805_062025-O.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_691626-MLA85699952107_062025-O.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_976733-MLA85700097959_062025-O.webp"
+  ],
+  "estoque": 32,
+  "freteGratis": true,
+  "full": true
+}

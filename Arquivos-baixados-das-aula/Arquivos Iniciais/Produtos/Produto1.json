@@ -1,0 +1,27 @@
+{
+  "titulo": "Liquidificador Turbo Blq970p 900w 2,6 Litros Britânia 110v",
+  "preco": 1149,
+  "precoDesconto": 849,
+  "precoParcelado": 70.75,
+  "caracteristicas": [
+    "Material da jarra: Acrílico",
+    "Capacidade de 2.6 L.",
+    "A sua potência é de 900 W.",
+    "Possui base antiderrapante.",
+    "Lâmina resistente de aço inoxidável.",
+    "Tampa dosadora incorporada.",
+    "Funciona com 4 velocidades.",
+    "Livre de BPA.",
+    "Inclui filtro.",
+    "Picador de gelo.",
+    "Quantidade de lâminas: 4."
+  ],
+  "imagens": [
+    "https://http2.mlstatic.com/D_NQ_NP_2X_991860-MLA84536292666_052025-F.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_948133-MLA84834570611_052025-F.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_2X_849138-MLA84536495898_052025-F.webp"
+  ],
+  "estoque": 10,
+  "freteGratis": false,
+  "full": true
+}

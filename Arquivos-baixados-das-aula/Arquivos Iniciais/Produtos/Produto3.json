@@ -1,0 +1,25 @@
+{
+  "titulo": "Notebook Lenovo LOQ-e 15iax9e Intel Core i5-12450hx 16gb 512gb Ssd Rtx 3050 Windows 11 15.6 - 83me0007br Luna Grey",
+  "preco": 5859,
+  "precoDesconto": 4899,
+  "precoParcelado": 408.25,
+  "caracteristicas": [
+    "Processador: Intel INTEL CORE I5 Intel Core i5-12450HX.",
+    "Edição do sistema operacional: Home.",
+    "Nome do sistema operacional: Windows.",
+    "Capacidade de disco SSD: 512 GB.",
+    "Capacidade total do módulo de memória RAM: 16 GB.",
+    "Placa gráfica: NVIDIA GeForce RTX 3050 6GB GDDR6, Boost Clock 1432MHz, 142 AI TOPS.",
+    "Resolução da tela: 1920 px x 1080 px.",
+    "Conexão Wi-Fi e bluetooth.",
+    "Possui pad numérico."
+  ],
+  "imagens": [
+    "https://http2.mlstatic.com/D_NQ_NP_703184-MLA82429441831_022025-O.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_971854-MLA82146551384_022025-O.webp",
+    "https://http2.mlstatic.com/D_NQ_NP_613895-MLA82429496373_022025-O.webp"
+  ],
+  "estoque": 18,
+  "freteGratis": true,
+  "full": false
+}

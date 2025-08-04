@@ -1,0 +1,3 @@
+Github: https://github.com/fullstackjornada/imersao-javascript-na-pratica
+
+Deploy: https://imersao-javascript-na-pratica-jfw4.onrender.com
