@@ -2,20 +2,28 @@ import { PrismaClient } from "@prisma/client";
 import express from "express";
 import cors from "cors";
 
+import { fileURLToPath } from "url";
+import path, { dirname } from "path";
+
+const __fileName = fileURLToPath(import.meta.url);
+const __dirname = dirname(__fileName);
+const caminhoDist = path.join(__dirname, "../front-end/dist");
+
 const app = express();
 
 const prisma = new PrismaClient();
 
 app.use(express.json());
 app.use(cors());
+app.use(express.static(caminhoDist));
 
-app.get("/produto", async (req, res) => {
+app.get("/api/produto", async (req, res) => {
   const produtos = await prisma.produto.findMany();
 
   res.json(produtos);
 });
 
-app.post("/produto", async (req, res) => {
+app.post("/api/produto", async (req, res) => {
   const {
     titulo,
     preco,
@@ -44,7 +52,7 @@ app.post("/produto", async (req, res) => {
   res.json(novoProduto);
 });
 
-app.post("/pedido", async (req, res) => {
+app.post("/api/pedido", async (req, res) => {
   const { valorTotal, itensVenda } = req.body;
 
   const novoPedido = await prisma.pedido.create({
@@ -56,7 +64,7 @@ app.post("/pedido", async (req, res) => {
   res.json(novoPedido);
 });
 
-app.delete("/produto/:id", async (req, res) => {
+app.delete("/api/produto/:id", async (req, res) => {
   const { id } = req.params;
 
   const produtoDeletar = await prisma.produto.delete({
@@ -66,7 +74,7 @@ app.delete("/produto/:id", async (req, res) => {
   res.json(produtoDeletar);
 });
 
-app.get("/produto/:id", async (req, res) => {
+app.get("/api/produto/:id", async (req, res) => {
   const { id } = req.params;
 
   const produto = await prisma.produto.findUnique({
@@ -74,6 +82,10 @@ app.get("/produto/:id", async (req, res) => {
   });
 
   res.json(produto);
+});
+
+app.get((req, res) => {
+  res.sendFile(path.join(caminhoDist, "index.html"));
 });
 
 // app.post("/produto/:id", (req, res) => {

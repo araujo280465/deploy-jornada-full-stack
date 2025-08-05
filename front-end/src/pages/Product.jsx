@@ -18,7 +18,7 @@ const Product = () => {
 
   useEffect(() => {
     const requisicaoAxios = async () => {
-      const { data } = await axios.get("http://localhost:3000/produto/" + id);
+      const { data } = await axios.get("/produto/" + id);
 
       setProduto(data);
     };
