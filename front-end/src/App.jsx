@@ -12,7 +12,7 @@ import axios from "axios";
 axios.defaults.baseURL =
   import.meta.env.MODE === "development"
     ? "http://localhost:3000/api"
-    : "https://deploy-jornada-full-stack-1-qjml.onrender.com/";
+    : "https://deploy-jornada-full-stack-1-qjml.onrender.com/api";
 
 export const ContextoCarrinho = createContext(null);
 
