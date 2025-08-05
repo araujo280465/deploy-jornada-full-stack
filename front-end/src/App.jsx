@@ -9,7 +9,10 @@ import Carrinho from "./components/Carrinho";
 import Produto from "./components/Produto";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:3000/api";
+axios.defaults.baseURL =
+  import.meta.env.MODE === "development"
+    ? "http://localhost:3000/api"
+    : "https://deploy-jornada-full-stack-1-qjml.onrender.com/";
 
 export const ContextoCarrinho = createContext(null);
 
